@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Counter App - Bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-theme">
+
+<div class="container vh-100 d-flex justify-content-center align-items-center">
+    <div class="card text-center p-4 shadow counter-card">
+        <h2 class="mb-3">Counter App</h2>
+
+        <h1 id="count" class="display-3">0</h1>
+
+        <div class="d-flex justify-content-center gap-2 my-3">
+            <button id="decrease" class="btn btn-danger">➖</button>
+            <button id="reset" class="btn btn-secondary">🔄</button>
+            <button id="increase" class="btn btn-success">➕</button>
+        </div>
+
+        <button id="themeToggle" class="btn btn-outline-dark btn-sm">
+            🌙 Toggle Theme
+        </button>
+
+        <p class="mt-3 text-muted small">
+            Keyboard: ↑ Increase | ↓ Decrease
+        </p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

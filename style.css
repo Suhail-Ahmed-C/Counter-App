@@ -1,0 +1,24 @@
+body.light-theme {
+    background-color: #f8f9fa;
+    color: #000;
+}
+
+body.dark-theme {
+    background-color: #121212;
+    color: #fff;
+}
+
+.counter-card {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 15px;
+}
+
+.dark-theme .card {
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+#count {
+    transition: color 0.3s ease;
+}
